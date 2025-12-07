@@ -1,0 +1,60 @@
+{
+  "files_check": {
+    "search.py": true,
+    "create_vectorstore.py": true,
+    "app.py": true,
+    "merged_products.json": true,
+    "test_phase3_hybrid.py": true,
+    "multi_agent_review.py": true,
+    "test_results_phase3.json": true,
+    "IMPROVEMENT_SUMMARY.md": true
+  },
+  "search_improvements": {
+    "hybrid_search_products": true,
+    "calculate_category_weight": true,
+    "infer_target_categories_from_query": true,
+    "deduplicated_output": true,
+    "seen_product_ids": true
+  },
+  "vectorstore_check": {
+    "chroma_exists": true,
+    "product_count": 25,
+    "expected_chunks": 77
+  },
+  "test_results_check": {
+    "success_rate": 90.0,
+    "success_count": 9,
+    "total_tests": 10,
+    "avg_similarity": 98.69
+  },
+  "dedup_check": {
+    "dedup_implemented": true,
+    "no_duplicates": true
+  },
+  "category_check": {
+    "category_keywords_map": false,
+    "calculate_category_weight": true,
+    "Category.AUDIO_EQUIPMENT": false,
+    "enable_category_weight": true
+  },
+  "app_check": {
+    "hybrid_search_products": true,
+    "bm25_weight=0.35": true,
+    "vector_weight=0.65": true,
+    "enable_category_weight=True": true
+  },
+  "product_check": {
+    "S-22": 0,
+    "H-880": 0,
+    "M-200": 0,
+    "L-330": 0
+  },
+  "summary": {
+    "total_improvements": 5,
+    "total_checks": 34,
+    "passed_checks": 22,
+    "success_rate_target": 90.0,
+    "success_rate_achieved": 90.0,
+    "target_achieved": true
+  }
+}

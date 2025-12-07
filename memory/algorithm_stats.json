@@ -1,0 +1,23 @@
+{
+  "detailed": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "metrics": {
+      "quality": [
+        8.5
+      ]
+    }
+  },
+  "concise": {
+    "total_runs": 4,
+    "successful_runs": 4,
+    "metrics": {
+      "quality": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    }
+  }
+}
